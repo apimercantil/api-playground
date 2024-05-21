@@ -1,0 +1,149 @@
+:root {
+ --blue-bm: #004e9b;
+ --secondary-blue: #008dd0;
+ --orange-bm: #ff8625;
+}
+
+.submit {
+  background: linear-gradient(180deg, #004e9b, #009fda);
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+
+.submit:hover {
+  background: linear-gradient(180deg, #4cbbe5, #4c82b8);
+}
+
+label {
+  color: var(--secondary-blue);
+  font-weight: bold;
+}
+
+#payment-form {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 12px auto;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(186, 186, 186, 0.886);
+  border: 2px solid transparent;
+}
+
+.nav {
+  background-color: var(--blue-bm);
+  padding: 8px;
+}
+
+.nav a {
+  margin-left: 128px;
+}
+
+#payment-form h3 {
+  font-size: 24px; /* Tamaño de fuente más pequeño */
+  margin-bottom: 20px; /* Espacio adicional debajo del título */
+  color: var(--orange-bm);
+  text-align: center;
+}
+
+#payment-form button {
+  display: block; /* Hace que el botón ocupe todo el ancho disponible */
+  margin: 0 auto; /* Centra el botón horizontalmente */
+  background-color: var(--blue-bm); /* Color de fondo azul */
+  color: white; /* Texto en color blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambio de cursor al pasar el ratón */
+}
+
+#payment-form select {
+  display: block;
+  width: auto;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#payment-form select:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+.transaction-response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto 0; /* Agrega un margen superior para separarlo del formulario */
+  width: fit-content;
+  box-shadow: 0 0 10px rgba(186, 186, 186, 0.886);
+  border: 2px solid transparent;
+}
+
+.transaction-response h2 {
+  font-size: 24px; /* Tamaño de fuente más pequeño */
+  color: var(--secondary-blue);
+}
+
+.json-container {
+  width: 70%;
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.json-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.json-container div div {
+  background-color: #404040;
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.json-container h3 {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: var(--secondary-blue);
+}
+
+.loader {
+  border: 8px solid #fff; /* Light grey */
+  border-top: 8px solid var(--secondary-blue); /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+.back {
+  cursor: pointer;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
