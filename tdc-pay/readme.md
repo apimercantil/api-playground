@@ -19,8 +19,7 @@
 <a id="playground-config"> </a>
 ### Configuración y uso del API Playground
 
-1. Descargar el código ubicado en este repositorio en su ordenador.<br>
-![Imagen de ejemplo](./img/readme-img-1.png)
+1. Descargar el código ubicado en este repositorio en su ordenador [pulsando aquí](https://github.com/apimercantil/api-playground/releases/download/V1/tdc-pay.zip).<br>
 
 2. Descomprimir el archivo descargado en su ordenador.<br>
 ![Imagen de ejemplo](./img/readme-img-8.png)
