@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de pagos con tarjeta</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <img class="nav-logo" src="/images/mercantil-logo.png">
+    </div>
+        
+    <div class="loader hide"></div>
+
+    <div class="main-container">
+        <h3>Búsqueda de pagos con tarjeta</h3>
+
+        <!-- ==== FORMULARIO DE PAGO ==== -->
+
+        <form>
+            <fieldset>
+                <label for="search-criteria">Criterio de búsqueda</label>
+                <select id="search-criteria">
+                    <option value="all">Todas las transacciones</option>
+                    <option value="lastten">Últimas diez(10) transacciones</option>
+                    <option value="lastfive">Últimas cinco(5) transacciones</option>
+                    <option value="last">Última transacción</option>
+                    <option value="unique">Única transacción</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="procesing-date">Fecha de la transacción</label>
+                <input type="date" id="procesing-date">
+            </fieldset>
+            <fieldset>
+                <label for="invoice-number">Número de factura</label>
+                <input type="number" id="invoice-number" required/>
+            </fieldset> 
+            <fieldset>
+                <label for="payment-reference">Número de referencia</label>
+                <input type="number" id="payment-reference" required/>
+            </fieldset> 
+        </form>
+
+        <!-- ==== TRANSACTION RESPONSE ==== -->
+
+        <div class="transaction-response hide">
+            <h2></h2>
+            <p></p>
+            <a class="retry">Reintentar</a>
+        </div>
+        <button id="send-button">Enviar</button>
+    </div>
+
+    <div class="json-container hide">
+        <div class="request">
+            <h3>Request</h3>
+            <div></div>
+        </div>
+        <div class="response">
+            <h3>Response</h3>
+            <div></div>
+        </div>
+    </div>
+
+    <script src="/js/interface.js" type="module"></script>
+    <script src="/js/main.js" type="module"></script>
+</body>
+</html>

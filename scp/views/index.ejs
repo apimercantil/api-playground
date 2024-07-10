@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de clave de pago</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <img class="nav-logo" src="/images/mercantil-logo.png">
+    </div>
+        
+    <div class="loader hide"></div>
+
+    <div class="main-container">
+        <h3>Solicitud de clave de pago</h3>
+
+        <!-- ==== FORMULARIO DE PAGO ==== -->
+
+        <form>
+            <fieldset>
+                <label for="customerid">Número de cédula</label>
+                <div>
+                    <select id="customerid-prefix">
+                        <option selected value="V">V</option>
+                        <option value="J">J</option>
+                        <option value="G">G</option>
+                        <option value="P">P</option>
+                        <option value="C">C</option>
+                    </select>
+                    <input type="number" id="customerid" required/>
+                </div>
+
+            </fieldset> 
+
+            <fieldset>
+                <label for="customer-phone-number">Número de teléfono:</label>
+                <div>
+                    <select id="customer-phone-number-prefix">
+                        <option value="414">0414</option>
+                        <option value="424">0424</option>
+                        <option value="412">0412</option>
+                        <option value="416">0416</option>
+                        <option value="426">0426</option>
+                    </select>
+                    <input type="number" id="customer-phone-number">
+                </div>
+            </fieldset>
+        </form>
+
+        <!-- ==== TRANSACTION RESPONSE ==== -->
+
+        <div class="transaction-response hide">
+            <h2></h2>
+            <p></p>
+            <a class="retry">Reintentar</a>
+        </div>
+        <button id="send-button">Enviar</button>
+    </div>
+
+    <div class="json-container hide">
+        <div class="request">
+            <h3>Request</h3>
+            <div></div>
+        </div>
+        <div class="response">
+            <h3>Response</h3>
+            <div></div>
+        </div>
+    </div>
+
+    <script src="/js/interface.js" type="module"></script>
+    <script src="/js/main.js" type="module"></script>
+</body>
+</html>
