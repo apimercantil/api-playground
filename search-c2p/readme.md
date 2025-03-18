@@ -1,5 +1,6 @@
 # Búsqueda de pagos móviles.
 
+>[!NOTE]
 [Más informacion sobre el API.](https://apiportal.mercantilbanco.com/mercantil-banco/produccion/product/21013)
 
 ### Índice
@@ -19,7 +20,8 @@
 <a id="playground-config"> </a>
 ### Configuración y uso del API Playground
 
-**Debes tener instalado [NodeJS(^20.12.2)](https://nodejs.org/) para la correcta configuración y ejecución de este ejemplo.**
+>[!WARNING]
+Debes tener instalado [NodeJS(^20.12.2)](https://nodejs.org/) para la correcta configuración y ejecución de este ejemplo.
 
 1. Descargar el código de ejemplo ubicado en este repositorio haciendo click [aquí](https://github.com/apimercantil/api-playground/releases/download/V1/c2p.zip).<br>
 
@@ -59,8 +61,10 @@
 ![Response example](https://www.mercantilbanco.com/mercprod/apiportal/images/request_api_c2p_search.png)
 ![Request example](https://www.mercantilbanco.com/mercprod/apiportal/images/response_api_c2p_search.png)
 
+>[!NOTE]
 Para información detallada sobre los campos del request pulsa [aquí](https://www.mercantilbanco.com/mercprod/apiportal/pdfs/api_c2p_search_descripcion_de_atributos_y_campos_0.pdf).
 <a id="error-codes"></a>
 ### Códigos de error
 
+>[!NOTE]
 Para información detallada sobre la lista de errores pulsa [aquí](https://www.mercantilbanco.com/mercprod/apiportal/pdfs/api_c2p_search_tipo_de_errores_0.pdf).
