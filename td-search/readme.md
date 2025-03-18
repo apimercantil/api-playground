@@ -1,5 +1,6 @@
 # Búsqueda de pagos con tarjetas.
 
+>[!NOTE]
 [Más informacion sobre el API.](https://apiportal.mercantilbanco.com/mercantil-banco/produccion/product/21031)
 
 ### Índice
@@ -19,6 +20,7 @@
 <a id="playground-config"> </a>
 ### Configuración y uso del API Playground
 
+>[!IMPORTANT]
 **Debes tener instalado [NodeJS(^20.12.2)](https://nodejs.org/) para la correcta configuración y ejecución de este ejemplo.**
 
 1. Descargar el código de ejemplo ubicado en este repositorio haciendo click [aquí](https://github.com/apimercantil/api-playground/releases/download/V1/td-search.zip).<br>
