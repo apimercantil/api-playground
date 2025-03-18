@@ -1,5 +1,5 @@
 {
-  "name": "create-installment",
+  "name": "c2p",
   "version": "1.0.0",
   "description": "Ejemplo sencillo de cómo hacer consultas a las API de Mercantil Banco.",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "mercantilbanco",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "c2p": "file:",
     "colors": "^1.4.0",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
