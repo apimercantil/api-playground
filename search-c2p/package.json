@@ -1,5 +1,5 @@
 {
-  "name": "create-installment",
+  "name": "search-c2p",
   "version": "1.0.0",
   "description": "Ejemplo sencillo de cómo hacer consultas a las API de Mercantil Banco.",
   "main": "index.js",
@@ -12,6 +12,7 @@
     "colors": "^1.4.0",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "search-c2p": "file:"
   }
 }
