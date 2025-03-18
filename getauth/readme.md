@@ -1,5 +1,6 @@
 # Autenticación para Pagos con Tarjeta de Débito(GetAuth).
 
+>[!NOTE]
 [Más informacion sobre el API.](https://apiportal.mercantilbanco.com/mercantil-banco/produccion/product/21031)
 
 ### Índice
@@ -19,6 +20,7 @@
 <a id="playground-config"> </a>
 ### Configuración y uso del API Playground
 
+>[!WARNING]
 **Debes tener instalado [NodeJS(^20.12.2)](https://nodejs.org/) para la correcta configuración y ejecución de este ejemplo.**
 
 1. Descargar el código de ejemplo ubicado en este repositorio haciendo click [aquí](https://github.com/apimercantil/api-playground/releases/download/V1/getauth.zip).<br>
@@ -58,8 +60,10 @@
 
 ![Request|Response example](https://www.mercantilbanco.com/mercprod/apiportal/images/img_auth.png)
 
+>[!NOTE]
 Para información detallada sobre los campos del request pulsa [aquí](https://www.mercantilbanco.com/mercprod/apiportal/pdfs/mapping_campos_tipo_txns_tdd.pdf).
 <a id="error-codes"></a>
 ### Códigos de error
 
+>[!NOTE]
 Para información detallada sobre la lista de errores pulsa [aquí](https://www.mercantilbanco.com/mercprod/apiportal/pdfs/Errores_con_TDD.pdf).
