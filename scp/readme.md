@@ -1,5 +1,6 @@
 # Solicitud de clave de pago.
 
+>[!NOTE]
 [Más informacion sobre el API.](https://apiportal.mercantilbanco.com/mercantil-banco/produccion/product/21040)
 
 ### Índice
@@ -19,6 +20,7 @@
 <a id="playground-config"> </a>
 ### Configuración y uso del API Playground
 
+>[!IMPORTANT]
 **Debes tener instalado [NodeJS(^20.12.2)](https://nodejs.org/) para la correcta configuración y ejecución de este ejemplo.**
 
 1. Descargar el código de ejemplo ubicado en este repositorio haciendo click [aquí](https://github.com/apimercantil/api-playground/releases/download/V1/scp.zip).<br>
@@ -59,8 +61,10 @@
 ![Response example](https://www.mercantilbanco.com/mercprod/apiportal/images/request_api_scp.png)
 ![Request example](https://www.mercantilbanco.com/mercprod/apiportal/images/response_api_scp.png)
 
+>[!NOTE]
 Para información detallada sobre los campos del request pulsa [aquí](https://www.mercantilbanco.com/mercprod/apiportal/pdfs/api_scp_c2p_descripcion_de_atributos_y_campos_0.pdf).
 <a id="error-codes"></a>
 ### Códigos de error
 
+>[!NOTE]
 Para información detallada sobre la lista de errores pulsa [aquí](https://www.mercantilbanco.com/mercprod/apiportal/pdfs/api_scp_c2p_tipo_de_errores_0.pdf).
